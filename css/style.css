@@ -1,0 +1,115 @@
+/* css reset code adapted from https://medium.com/swlh/css-reset-2b4831d4664e */
+* {
+  box-sizing: border-box;
+  background-color: #1e1c2a;
+  margin: 0;
+  padding: 0;
+}
+/* End of adapted code */
+/* Wrapper adapted from https://css-tricks.com/best-way-implement-wrapper-css/ */
+.main-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  /* adjust padding into rem */
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* End of adapted code */
+nav {
+  background: 1e1c2a;
+  padding: 5px 20px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.menu li {
+  font-size: 1rem;
+  padding: 0.5rem 0.25rem;
+}
+.menu li a {
+  display: block;
+}
+.logo a {
+  font-size: 20px;
+}
+/* Mobile */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  order: 1;
+}
+.item {
+  width: 100%;
+  text-align: center;
+  order: 2;
+  display: none;
+}
+.item.active {
+  display: block;
+}
+
+/* Create hamburger icon */
+.toggle {
+  cursor: pointer;
+}
+.bars {
+  background: #999;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+.bars::before,
+.bars::after {
+  background: #999;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: absolute;
+  width: 18px;
+}
+.bars::before {
+  top: 5px;
+}
+.bars::after {
+  top: -5px;
+}
+
+/* Tablet Menu */
+
+@media all and (min-width: 468px) {
+  .menu {
+    justify-content: center;
+  }
+  .logo {
+    flex: 1;
+  }
+}
+/* Desktop Nav media query */
+
+@media all and (min-width: 500px) {
+  .item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .padding li {
+    padding: 0.75rem 0.5rem;
+  }
+}
