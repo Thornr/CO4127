@@ -16,19 +16,13 @@
   padding-left: 10px;
 }
 /* End of adapted code */
+/* Code adapted from https://www.youtube.com/watch?v=6pidsgeLLzE */
 nav {
   background: 1e1c2a;
   padding: 5px 20px;
 }
 ul {
   list-style-type: none;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 
 .menu li {
@@ -38,10 +32,11 @@ a:hover {
 .menu li a {
   display: block;
 }
-.logo a {
-  font-size: 20px;
+.logo img {
+  max-width: auto;
+  height: 4rem;
 }
-/* Mobile */
+/* Mobile first*/
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +52,15 @@ a:hover {
   text-align: center;
   order: 2;
   display: none;
+  font-size: 0.5rem;
+  font-family: "DotGothic16", sans-serif;
+}
+.item a {
+  color: #7dbac5;
+  text-decoration: none;
+}
+.item a:hover {
+  text-decoration: underline;
 }
 .item.active {
   display: block;
