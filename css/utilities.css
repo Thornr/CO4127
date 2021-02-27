@@ -4,11 +4,7 @@
 /* Columns and rows */
 .row div {
   padding: 3%;
-  border: 1px solid white;
-  border-radius: 5px;
-  text-align: right;
   color: white;
-  transition: background-color 1s;
 }
 
 /* 1/12 */
