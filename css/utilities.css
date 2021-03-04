@@ -66,3 +66,19 @@
 .col-12 {
   width: 100%;
 }
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  background: #4c6ca0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: #f4f4f4;
+  background: #446190;
+}
