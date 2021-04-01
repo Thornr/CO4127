@@ -14,14 +14,12 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 960px;
-  /* adjust padding into rem */
   padding-right: 5rem;
   padding-left: 5rem;
 }
 /* End of adapted code */
 /* Code adapted from https://www.youtube.com/watch?v=6pidsgeLLzE */
 nav {
-  background: 1e1c2a;
   padding: 5px 20px;
 }
 ul {
@@ -109,7 +107,6 @@ ul {
   background-size: contain;
   height: 100vh;
   width: auto;
-  display: 2px solid green;
   text-align: center;
   color: #fff;
 }
@@ -244,17 +241,34 @@ footer p {
 }
 
 /* Media quieries */
-/* Tablet Menu */
+/* moblile Menu */
 
-@media all and (min-width: 468px) {
+@media all and (min-width: 410px) {
+  .main-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
   .menu {
     justify-content: center;
   }
   .logo {
     flex: 1;
   }
+  .header-content h1 {
+    margin-top: 10rem;
+  }
+  .splash-box {
+    margin: -10rem 0rem;
+  }
+  .item {
+    border-bottom: #fff solid 0.5px;
+  }
 }
-/* Desktop Nav media query */
+
+/* Desktop Nav media query todo adapted from */
 
 @media all and (min-width: 500px) {
   .item {
