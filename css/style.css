@@ -257,11 +257,12 @@ footer p {
   .logo {
     flex: 1;
   }
-  .header-content h1 {
-    margin-top: 10rem;
-  }
+
   .splash-box {
-    margin: -10rem 0rem;
+    height: 65vh;
+  }
+  .header-content {
+    /* margin-bottom: -5rem; */
   }
   .item {
     border-bottom: #fff solid 0.5px;
