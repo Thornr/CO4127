@@ -136,6 +136,10 @@ ul {
   text-decoration: none;
 }
 
+.slides-dots {
+  text-align: center;
+}
+
 /* Homepage Youtube video code adapted from https://avexdesigns.com/blog/responsive-youtube-embed */
 
 .video-container {
