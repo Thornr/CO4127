@@ -243,7 +243,7 @@ footer p {
 /* Media quieries */
 /* moblile Menu */
 
-@media all and (min-width: 410px) {
+@media all and (max-width: 410px) {
   .main-wrapper {
     margin-right: auto;
     margin-left: auto;
