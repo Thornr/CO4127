@@ -66,7 +66,7 @@
 .col-12 {
   width: 100%;
 }
-
+/* End of adapted code */
 /* Buttons */
 .btn-primary {
   display: inline-block;
@@ -76,9 +76,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "DotGothic16", sans-serif;
 }
 
 .btn-primary:hover {
   color: #f4f4f4;
-  background: #446190;
+  background: #7da8ee;
 }
