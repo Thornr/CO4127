@@ -158,10 +158,9 @@ ul {
 }
 /* Typing resources */
 .resource-box {
-  border-bottom: #026daf solid 2px;
+  border-top: #026daf solid 2px;
 }
 .resource-box:last-child {
-  border-bottom: none;
   padding-bottom: 4rem;
 }
 .resource-box a {
@@ -181,7 +180,6 @@ ul {
 }
 .media-title-vid {
   padding-top: 1rem;
-  padding-bottom: 2rem;
 }
 
 /* Contact form */
@@ -190,11 +188,11 @@ form {
 }
 .intro {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 .contact-form {
   display: flex;
-  max-width: 35%;
+  max-width: 40%;
   margin: auto;
   flex-direction: column;
 }
@@ -203,7 +201,7 @@ input {
 }
 #message {
   width: 100%;
-  min-height: 10rem;
+  min-height: 7rem;
 }
 .send {
   background-color: rgb(27, 171, 200);
@@ -218,7 +216,6 @@ input {
 footer {
   color: #7ca7c2;
   text-align: center;
-  padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
   font-family: "DotGothic16", sans-serif;
@@ -235,15 +232,23 @@ footer p {
   padding-top: 1rem;
   font-size: 00.75rem;
 }
+/* To keep footer at bottom of contact page */
+.contact {
+  position: absolute;
+  bottom: 0;
+}
+.contact-form {
+  padding-bottom: 2rem;
+}
 
 .la-igloo {
   padding-left: 0.25rem;
 }
 
 /* Media quieries */
-/* moblile Menu */
+/* moblile  */
 
-@media all and (max-width: 410px) {
+@media all and (max-width: 425px) {
   .main-wrapper {
     margin-right: auto;
     margin-left: auto;
@@ -261,11 +266,24 @@ footer p {
   .splash-box {
     height: 65vh;
   }
-  .header-content {
-    /* margin-bottom: -5rem; */
-  }
   .item {
     border-bottom: #fff solid 0.5px;
+  }
+  .footer,
+  p {
+    padding: 0rem 0.5rem;
+  }
+  #message {
+    min-height: 5rem;
+  }
+}
+/* Tablet */
+@media all and (max-width: 768px) {
+  .contact-form {
+    max-width: 100%;
+  }
+  #message {
+    min-height: 10rem;
   }
 }
 
