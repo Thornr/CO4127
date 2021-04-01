@@ -9,6 +9,37 @@ body {
   color: #7ca7c2;
   font-family: "DotGothic16", sans-serif;
 }
+/* utilities */
+
+/* Code adapted from (Brejish, n.d.) */
+/* Columns and rows */
+.row div {
+  padding: 3%;
+  color: white;
+}
+/* 1/12 */
+.col-1 {
+  width: 8.33%;
+}
+/* End of adapted code */
+
+/* Button */
+.btn-primary {
+  display: inline-block;
+  background: #4c6ca0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.btn-primary:hover {
+  color: #f4f4f4;
+  background: #7da8ee;
+}
+
 /* Wrapper adapted from https://css-tricks.com/best-way-implement-wrapper-css/ */
 .main-wrapper {
   margin-right: auto;
@@ -18,7 +49,7 @@ body {
   padding-left: 5rem;
 }
 /* End of adapted code */
-/* Code adapted from https://www.youtube.com/watch?v=6pidsgeLLzE */
+/* Code adapted from  (Responsive Nav Bar Tutorial | HTML CSS JS Flexbox Navigation Menu, 2019) */
 nav {
   padding: 5px 20px;
 }
@@ -100,8 +131,8 @@ ul {
   top: -5px;
 }
 /* End of adapted code */
-/* Homepage */
 
+/* Homepage */
 /* Splash section */
 .splash-box {
   background: url("/img/splash.jpg") no-repeat center;
@@ -302,7 +333,8 @@ footer p {
   }
 }
 
-/* Desktop Nav media query todo adapted from */
+/* Desktop Nav media query  */
+/* Code adapted from  (Responsive Nav Bar Tutorial | HTML CSS JS Flexbox Navigation Menu, 2019)  */
 
 @media all and (min-width: 1250px) {
   .item {
@@ -317,3 +349,4 @@ footer p {
     padding: 0.75rem 0.5rem;
   }
 }
+/* End of adapted code */

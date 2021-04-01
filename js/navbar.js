@@ -1,3 +1,4 @@
+// Code adapted from  (Responsive Nav Bar Tutorial | HTML CSS JS Flexbox Navigation Menu, 2019) 
 const toggle = document.getElementsByClassName("toggle");
 const item = document.querySelectorAll(".item");
 item.forEach(navItem => { 
@@ -10,3 +11,4 @@ item.forEach(navItem => {
         }
         document.querySelector(".toggle").addEventListener("click", toggleMenu);
     });
+// End of adapted code
