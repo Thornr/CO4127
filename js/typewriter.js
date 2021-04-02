@@ -1,3 +1,4 @@
+// Code adapted from (Traversy, 2018)
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -63,3 +64,5 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+// end of adapted code

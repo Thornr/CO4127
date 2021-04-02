@@ -1,10 +1,4 @@
-/* ToDo:customise styling for slider and add proper referencing */
-
-* {
-  box-sizing: border-box;
-}
-
-/* Slideshow container  https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+/* Code adapted from (How TO - Slideshow, n.d.)*/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -112,3 +106,4 @@
     opacity: 1;
   }
 }
+/* End of adapted code */

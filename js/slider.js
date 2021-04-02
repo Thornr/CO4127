@@ -1,3 +1,4 @@
+/* Code adapted from (How TO - Slideshow, n.d.)*/
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -5,7 +6,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -26,3 +26,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " activeSlide";
 }
+// End of adapted code

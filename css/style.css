@@ -40,7 +40,7 @@ body {
   background: #7da8ee;
 }
 
-/* Wrapper adapted from https://css-tricks.com/best-way-implement-wrapper-css/ */
+/* Wrapper adapted from  (Kosev, 2017)*/
 .main-wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -172,7 +172,7 @@ ul {
   text-align: center;
 }
 
-/* Homepage Youtube video code adapted from https://avexdesigns.com/blog/responsive-youtube-embed */
+/* Code adapted from (Surdakowski, 2020)*/
 
 .video-container {
   position: relative;
@@ -193,6 +193,7 @@ ul {
   height: 100%;
   border: none;
 }
+/* End of adapted code */
 /* Typing resources */
 .resource-box {
   border-top: #026daf solid 2px;
